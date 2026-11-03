@@ -1,0 +1,134 @@
+{
+  "accuracy": 0.9874031007751938,
+  "precision": 0.9758064516129032,
+  "recall": 0.9236641221374046,
+  "f1": 0.9490196078431372,
+  "confusion_matrix": [
+    [
+      898,
+      3
+    ],
+    [
+      10,
+      121
+    ]
+  ],
+  "classification_report": {
+    "Ham": {
+      "precision": 0.9889867841409692,
+      "recall": 0.9966703662597114,
+      "f1-score": 0.9928137092316197,
+      "support": 901.0
+    },
+    "Spam": {
+      "precision": 0.9758064516129032,
+      "recall": 0.9236641221374046,
+      "f1-score": 0.9490196078431372,
+      "support": 131.0
+    },
+    "accuracy": 0.9874031007751938,
+    "macro avg": {
+      "precision": 0.9823966178769362,
+      "recall": 0.960167244198558,
+      "f1-score": 0.9709166585373785,
+      "support": 1032.0
+    },
+    "weighted avg": {
+      "precision": 0.9873136992948678,
+      "recall": 0.9874031007751938,
+      "f1-score": 0.9872545742685468,
+      "support": 1032.0
+    }
+  },
+  "classification_report_text": "              precision    recall  f1-score   support\n\n         Ham       0.99      1.00      0.99       901\n        Spam       0.98      0.92      0.95       131\n\n    accuracy                           0.99      1032\n   macro avg       0.98      0.96      0.97      1032\nweighted avg       0.99      0.99      0.99      1032\n",
+  "n_total": 5158,
+  "n_train": 4126,
+  "n_test": 1032,
+  "n_ham": 4505,
+  "n_spam": 653,
+  "vocab_size": 5635,
+  "top_spam_words": [
+    {
+      "word": "claim",
+      "score": 5.8852405980349625
+    },
+    {
+      "word": "prize",
+      "score": 5.80945578890034
+    },
+    {
+      "word": "won",
+      "score": 5.6192354485998965
+    },
+    {
+      "word": "numtoken prize",
+      "score": 5.345435426915637
+    },
+    {
+      "word": "box numtoken",
+      "score": 5.317938996978642
+    },
+    {
+      "word": "numtoken cash",
+      "score": 5.282842524503087
+    },
+    {
+      "word": "cs",
+      "score": 5.2785428641391565
+    },
+    {
+      "word": "guaranteed",
+      "score": 5.216931095780706
+    },
+    {
+      "word": "claim numtoken",
+      "score": 5.208495228972063
+    },
+    {
+      "word": "uk",
+      "score": 5.173272071375363
+    }
+  ],
+  "top_ham_words": [
+    {
+      "word": "gt",
+      "score": 4.855003279883921
+    },
+    {
+      "word": "lt",
+      "score": 4.845293409540238
+    },
+    {
+      "word": "ill",
+      "score": 4.783622446403948
+    },
+    {
+      "word": "lt gt",
+      "score": 4.76609058333326
+    },
+    {
+      "word": "lor",
+      "score": 4.692161024994077
+    },
+    {
+      "word": "later",
+      "score": 4.333701324195304
+    },
+    {
+      "word": "thats",
+      "score": 4.239269755919126
+    },
+    {
+      "word": "doing",
+      "score": 4.131405802959519
+    },
+    {
+      "word": "lol",
+      "score": 4.080224634184974
+    },
+    {
+      "word": "ask",
+      "score": 4.074565018204526
+    }
+  ]
+}
